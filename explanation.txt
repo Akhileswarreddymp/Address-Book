@@ -1,0 +1,13 @@
+step1 : Ensure that sqlite is installed on your local machine as it is a prerequisite.
+
+step2 : Navigate to the Addresses directory using the command (cd Address-book).
+
+step3 : Create a Python virtual environment named env using the command (python -m venv env).
+
+step4 : Activate the virtual environment with the command (env\Scripts\activate).
+
+step5 : Install the required packages by running (pip install -r requirements.txt).
+
+step6 : Move into the backend directory by executing (cd backend).
+
+step7 : Start the application by using the command (uvicorn address:app --reload).
